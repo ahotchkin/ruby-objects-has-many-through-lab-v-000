@@ -3,6 +3,6 @@ class Appointment
 
   def initialize(patient)
     @patient = patient
-    # @date =
+    @date = time.now
   end
 end
