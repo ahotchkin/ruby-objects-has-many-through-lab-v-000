@@ -5,4 +5,12 @@ class Patient
     @name = name
     @appointments = []
   end
+
+  def add_appointment(appointment)
+    @appointments << appointment
+  end
+
+  def doctors
+    appointments.each { |appointment| appointment.doctor }
+  end
 end
