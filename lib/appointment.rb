@@ -1,3 +1,5 @@
+require 'date'
+
 class Appointment
   attr_accessor :doctor, :date
 
