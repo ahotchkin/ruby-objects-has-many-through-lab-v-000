@@ -16,6 +16,6 @@ class Patient
   end
 
   def doctors
-    appointments.collect { |appointment| appointment.doctor }
+    appointments.each { |appointment| appointment.doctor }
   end
 end
