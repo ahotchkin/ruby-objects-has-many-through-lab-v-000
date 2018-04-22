@@ -7,7 +7,7 @@ class Appointment
   end
 
   def patient
-    appointment.patient(self)
+    self.patient = patient
   end
 
 end
