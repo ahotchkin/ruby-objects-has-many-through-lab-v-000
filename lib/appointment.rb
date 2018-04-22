@@ -1,10 +1,11 @@
 require 'date'
 
 class Appointment
-  attr_accessor :doctor, :date
+  attr_accessor :date, :doctor
 
-  def initialize(doctor, date)
-    @doctor = doctor
+  def initialize(date, doctor)
     @date = time.now
+    @doctor = doctor
+
   end
 end
