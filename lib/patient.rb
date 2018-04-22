@@ -10,6 +10,10 @@ class Patient
     @appointments << appointment
   end
 
+  def appointments
+    @appointments
+  end
+
   def doctors
     appointments.each { |appointment| appointment.doctor }
   end
